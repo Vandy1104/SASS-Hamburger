@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'images';
+@import 'resets';
+@import 'nav';
+@import 'icons';
+
+body{
+	background: $backColor;
+	color: $fontColor;
+}
+
+h1{
+	padding: $padding;
+	margin: 5*$margin;
+	text-align: $textAlign;
+	/*transform: rotate(180deg);*/
+
+}
+
+/*#head{
+	border: 90px double red;
+	opacity: 0.3;
+	height: 300px;
+	width:auto;
+}*/
